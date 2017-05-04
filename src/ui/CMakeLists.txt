@@ -1,0 +1,16 @@
+SET(FILES_HXX
+    ${FILES_HXX}
+    ${CMAKE_CURRENT_SOURCE_DIR}/HdrSimpleFramework.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/ProcessingEngine.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/RealtimeEngine.hpp
+    PARENT_SCOPE
+   )
+SET(FILES_CPP
+    ${FILES_CPP}
+    ${CMAKE_CURRENT_SOURCE_DIR}/HdrSimpleFramework.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}//ProcessingEngine.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/RealtimeEngine.cpp
+    PARENT_SCOPE
+   )
+
+INCLUDE_DIRECTORIES(${CMAKE_CURRENT_BINARY_DIR})
