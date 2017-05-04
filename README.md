@@ -6,10 +6,10 @@ Simple image processing framework. Realtime HDR. HDR tonemapper.
 
 #### 1
 | EV- | EV0 | EV+ |
-|     output      |
-| --------------- |
+| --- | --- | --- |
 | ![EVmin](doc/1/0.jpg) | ![EVzero](doc/1/1.jpg) | ![EVmmax](doc/1/2.jpg) |
-| ![EVmmax](doc/1/output.jpg) |
+
+![EVmmax](doc/1/output.jpg)
 
 #### 2
 
